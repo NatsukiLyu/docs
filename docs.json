@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
+  "theme": "mint",
   "name": "wiki test",
   "colors": {
     "primary": "#16A34A",
@@ -11,18 +11,17 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "en/documentation/get-started/welcome",
+              "en/documentation/get-started/installation"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Guides",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -58,18 +57,18 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "Website",
+          "href": "https://acestudio.ai/",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
+          "anchor": "Download",
+          "href": "https://acestudio.ai/download/",
           "icon": "slack"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "anchor": "Support",
+          "href": "mailto:support@acestudio.ai",
           "icon": "newspaper"
         }
       ]
