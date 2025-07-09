@@ -9,46 +9,99 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Documentation",
-        "groups": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "Get Started",
-            "pages": [
-              "en/documentation/get-started/welcome",
-              "en/documentation/get-started/installation"
+            "tab": "Documentation",
+            "groups": [
+              {
+                "group": "Get Started",
+                "pages": [
+                  "en/documentation/get-started/welcome",
+                  "en/documentation/get-started/installation"
+                ]
+              },
+              {
+                "group": "Guides",
+                "pages": [
+                  "essentials/markdown",
+                  "essentials/code",
+                  "essentials/images",
+                  "essentials/settings",
+                  "essentials/navigation",
+                  "essentials/reusable-snippets"
+                ]
+              }
             ]
           },
           {
-            "group": "Guides",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+            "tab": "Tools",
+            "groups": [
+              {
+                "group": "API Documentation",
+                "pages": [
+                  "api-reference/introduction"
+                ]
+              },
+              {
+                "group": "Endpoint Examples",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete",
+                  "api-reference/endpoint/webhook"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
-        "groups": [
+        "language": "zh",
+        "tabs": [
           {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+            "tab": "文档",
+            "groups": [
+              {
+                "group": "开始使用",
+                "pages": [
+                  "zh/documentation/get-started/welcome",
+                  "zh/documentation/get-started/installation"
+                ]
+              },
+              {
+                "group": "指南",
+                "pages": [
+                  "essentials/markdown",
+                  "essentials/code",
+                  "essentials/images",
+                  "essentials/settings",
+                  "essentials/navigation",
+                  "essentials/reusable-snippets"
+                ]
+              }
             ]
           },
           {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+            "tab": "工具",
+            "groups": [
+              {
+                "group": "API 文档",
+                "pages": [
+                  "api-reference/introduction"
+                ]
+              },
+              {
+                "group": "接口示例",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete",
+                  "api-reference/endpoint/webhook"
+                ]
+              }
             ]
           }
         ]
